@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ligand Screening | Bioinformatics Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo"><img src="logo.png" alt="Bioinformatics Lab Logo" class="logo-img"></div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="biological_database.html">Biological Database</a>
+      <a href="pdb.html">PDB</a>
+      <a href="blast.html">BLAST</a>
+      <a href="msa_phylo.html">Multiple Alignment</a>
+      <a href="gene_prediction.html">Gene Prediction</a>
+      <a href="protein_structure.html">Protein Structure</a>
+      <a href="ligand_screening.html">Ligand Screening</a>
+      <a href="ligand_docking.html">Molecular Docking</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">Experiment 7</p>
+        <h1>Identification of Ligands, Screening of Ligands from PubChem and Virtual Screening by PyRx</h1>
+        <p class="lead">
+          To identify potential ligands from PubChem and perform virtual screening using PyRx.
+        </p>
+        <div class="hero__actions">
+          <a class="btn primary" href="#aim">View Aim &amp; Objectives</a>
+          <a class="btn ghost" href="#principle">Read Principle</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="aim" class="panel muted">
+      <div class="panel__header">
+        <h2>Aim & Objectives</h2>
+        <!-- <p>To identify potential ligands from PubChem and perform virtual screening using PyRx.</p> -->
+      </div>
+      <div class="grid two">
+        <div class="card soft">
+          <h3>Aim</h3>
+          <p>To identify potential ligands from PubChem and perform virtual screening using PyRx.</p>
+        </div>
+        <div class="card soft">
+          <h3>Objectives</h3>
+          <ul class="checklist">
+            <li>Identification and screening of ligand from PubChem database using Lipinski's rule of five.</li>
+            <li>Virtual screening of ligand by using PyRx software.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="principle" class="panel">
+      <div class="panel__header">
+        <h2>Principle</h2>
+        <p>Ligand identification and virtual screening are computational techniques used in drug discovery. PubChem provides curated chemical structures along with physicochemical properties. Ligands are prepared and filtered based on drug-likeness criteria. PyRx integrates docking engines to screen multiple ligands against a target protein. Binding affinity scores predict the likelihood of interaction. Virtual screening reduces time and cost compared to experimental methods.</p>
+      </div>
+    </section>
+
+    <section class="panel muted">
+      <div class="panel__header">
+        <h2>Output</h2>
+        <p>Ligand Screening Based on Lipinski's Rule of Five</p>
+      </div>
+      <div class="output-img">
+        <img src="images/ligand_screening.jpg" alt="Ligand screening output">
+      </div>
+      <div class="output-img grid-images" style="margin-top: 1.5rem;">
+        <img src="images/ligand_screening_1.jpg" alt="Ligand screening 1">
+        <img src="images/ligand_screening_2.jpg" alt="Ligand screening 2">
+        <img src="images/ligand_screening_3.jpg" alt="Ligand screening 3">
+        <img src="images/ligand_screening_4.jpg" alt="Ligand screening 4">
+        <img src="images/ligand_screening_5.jpg" alt="Ligand screening 5">
+        <img src="images/ligand_screening_6.jpg" alt="Ligand screening 6">
+        <img src="images/ligand_screening_7.jpg" alt="Ligand screening 7">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Identification of Ligands, Screening of Ligands from PubChem and Virtual Screening</p>
+    <p class="small">Student: Dipika Gupta | Content adapted from <a href="https://sites.google.com/kletech.ac.in/bioinformatics-lab/identification-of-ligands-screening-of-ligands-from-pubchem-and-virtual-sc" target="_blank" style="color: rgba(233, 241, 255, 0.8);">KLE Bioinformatics Lab</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLAST Algorithm | Bioinformatics Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo"><img src="logo.png" alt="Bioinformatics Lab Logo" class="logo-img"></div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="biological_database.html">Biological Database</a>
+      <a href="pdb.html">PDB</a>
+      <a href="blast.html">BLAST</a>
+      <a href="msa_phylo.html">Multiple Alignment</a>
+      <a href="gene_prediction.html">Gene Prediction</a>
+      <a href="protein_structure.html">Protein Structure</a>
+      <a href="ligand_screening.html">Ligand Screening</a>
+      <a href="ligand_docking.html">Molecular Docking</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">Experiment 3</p>
+        <h1>Searching Sequence Databases Using BLAST Algorithm and Pairwise Alignment of the Sequences</h1>
+        <p class="lead">
+          To identify sequence similarity using the BLAST algorithm and perform pairwise alignment of nucleotide and protein sequences.
+        </p>
+        <div class="hero__actions">
+          <a class="btn primary" href="#aim">View Aim &amp; Objectives</a>
+          <a class="btn ghost" href="#principle">Read Principle</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="aim" class="panel muted">
+      <div class="panel__header">
+        <h2>Aim & Objectives</h2>
+        <!-- <p>To identify sequence similarity using the BLAST algorithm and perform pairwise alignment of nucleotide and protein sequences.</p> -->
+      </div>
+      <div class="grid two">
+        <div class="card soft">
+          <h3>Aim</h3>
+          <p>To identify sequence similarity using the BLAST algorithm and perform pairwise alignment of nucleotide and protein sequences.</p>
+        </div>
+        <div class="card soft">
+          <h3>Objectives</h3>
+          <ul class="checklist">
+            <li>To study the pairwise sequence similarity and extract homologous sequence using BLAST algorithm.</li>
+            <li>To perform global sequence alignment between two nucleotide acid sequence and find out structural and functional similarity.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="principle" class="panel">
+      <div class="panel__header">
+        <h2>Principle</h2>
+        <p>BLAST (Basic Local Alignment Search Tool) compares a query sequence against database sequences to identify regions of local similarity. Pairwise alignment aligns two sequences to identify conserved regions, mutations, and evolutionary relationships. Statistical parameters determine the significance of the alignment.</p>
+      </div>
+    </section>
+
+    <section class="panel muted">
+      <div class="panel__header">
+        <h2>Output</h2>
+        <p>BLAST and Sequence Alignment Results</p>
+      </div>
+      <div class="output-img">
+        <img src="images/blast.jpg" alt="BLAST output">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Searching Sequence Databases Using BLAST Algorithm and Pairwise Alignment</p>
+    <p class="small">Student: Dipika Gupta | Content adapted from <a href="https://sites.google.com/kletech.ac.in/bioinformatics-lab/searching-sequence-databases-using-blast-algorithm-and-pairwise-alignment-o" target="_blank" style="color: rgba(233, 241, 255, 0.8);">KLE Bioinformatics Lab</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gene Prediction | Bioinformatics Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo"><img src="logo.png" alt="Bioinformatics Lab Logo" class="logo-img"></div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="biological_database.html">Biological Database</a>
+      <a href="pdb.html">PDB</a>
+      <a href="blast.html">BLAST</a>
+      <a href="msa_phylo.html">Multiple Alignment</a>
+      <a href="gene_prediction.html">Gene Prediction</a>
+      <a href="protein_structure.html">Protein Structure</a>
+      <a href="ligand_screening.html">Ligand Screening</a>
+      <a href="ligand_docking.html">Molecular Docking</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">Experiment 5</p>
+        <h1>Gene Prediction and Genome</h1>
+        <p class="lead">
+          To predict genes in given genome.
+        </p>
+        <div class="hero__actions">
+          <a class="btn primary" href="#aim">View Aim &amp; Objectives</a>
+          <a class="btn ghost" href="#principle">Read Principle</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="aim" class="panel muted">
+      <div class="panel__header">
+        <h2>Aim & Objectives</h2>
+        <!-- <p>To predict genes in given genome.</p> -->
+      </div>
+      <div class="grid two">
+        <div class="card soft">
+          <h3>Aim</h3>
+          <p>To predict genes in given genome.</p>
+        </div>
+        <div class="card soft">
+          <h3>Objectives</h3>
+          <ul class="checklist">
+            <li>To predict genes in given genome.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="principle" class="panel">
+      <div class="panel__header">
+        <h2>Principle</h2>
+        <p>Gene prediction involves identifying coding regions within genomic DNA sequences. Computational tools detect features such as open reading frames, start and stop codons, and splice sites. Statistical models distinguish coding regions from non-coding DNA. Some algorithms use known gene patterns, while others apply machine-learning techniques. Accurate gene prediction helps in genome annotation. It forms the basis for functional and comparative genomics studies.</p>
+      </div>
+    </section>
+
+    <section class="panel muted">
+      <div class="panel__header">
+        <h2>Output</h2>
+        <p>Gene Prediction and Annotation Results</p>
+      </div>
+      <div class="output-img">
+        <img src="images/gene_prediction.jpg" alt="Gene prediction output">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Gene Prediction and Genome</p>
+    <p class="small">Student: Dipika Gupta | Content adapted from <a href="https://sites.google.com/kletech.ac.in/bioinformatics-lab/gene-prediction-and-genome" target="_blank" style="color: rgba(233, 241, 255, 0.8);">KLE Bioinformatics Lab</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

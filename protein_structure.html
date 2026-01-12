@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protein Structure Prediction | Bioinformatics Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo"><img src="logo.png" alt="Bioinformatics Lab Logo" class="logo-img"></div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="biological_database.html">Biological Database</a>
+      <a href="pdb.html">PDB</a>
+      <a href="blast.html">BLAST</a>
+      <a href="msa_phylo.html">Multiple Alignment</a>
+      <a href="gene_prediction.html">Gene Prediction</a>
+      <a href="protein_structure.html">Protein Structure</a>
+      <a href="ligand_screening.html">Ligand Screening</a>
+      <a href="ligand_docking.html">Molecular Docking</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">Experiment 6</p>
+        <h1>Protein 2D and 3D Structure Prediction</h1>
+        <p class="lead">
+          To predict the secondary and tertiary structures of proteins using computational tools.
+        </p>
+        <div class="hero__actions">
+          <a class="btn primary" href="#aim">View Aim &amp; Objectives</a>
+          <a class="btn ghost" href="#principle">Read Principle</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="aim" class="panel muted">
+      <div class="panel__header">
+        <h2>Aim & Objectives</h2>
+        <!-- <p>To predict the secondary and tertiary structures of proteins using computational tools.</p> -->
+      </div>
+      <div class="grid two">
+        <div class="card soft">
+          <h3>Aim</h3>
+          <p>To predict the secondary and tertiary structures of proteins using computational tools.</p>
+        </div>
+        <div class="card soft">
+          <h3>Objectives</h3>
+          <ul class="checklist">
+            <li>To identify 2D structure of protein.</li>
+            <li>To identify 3D structure of protein.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="principle" class="panel">
+      <div class="panel__header">
+        <h2>Principle</h2>
+        <p>Protein structure prediction is based on the principle that amino acid sequence determines protein structure. Secondary structure prediction identifies α-helices, β-sheets, and coils using statistical and machine-learning methods. Tertiary structure prediction uses homology modeling, threading, or ab initio approaches. These methods compare unknown sequences with known protein structures or predict folding patterns computationally. Predicted structures help in understanding protein function and stability. Structure prediction is crucial when experimental structures are unavailable.</p>
+      </div>
+    </section>
+
+    <section class="panel muted">
+      <div class="panel__header">
+        <h2>Output</h2>
+        <p>Homology Modeling Template Analysis</p>
+      </div>
+      <div class="output-img">
+        <img src="images/protein_structure.jpg" alt="Protein structure prediction output">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Protein 2D and 3D Structure Prediction</p>
+    <p class="small">Student: Dipika Gupta | Content adapted from <a href="https://sites.google.com/kletech.ac.in/bioinformatics-lab/protein-2d-and-3d-structure-prediction" target="_blank" style="color: rgba(233, 241, 255, 0.8);">KLE Bioinformatics Lab</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

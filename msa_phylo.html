@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Sequence Alignment | Bioinformatics Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo"><img src="logo.png" alt="Bioinformatics Lab Logo" class="logo-img"></div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="biological_database.html">Biological Database</a>
+      <a href="pdb.html">PDB</a>
+      <a href="blast.html">BLAST</a>
+      <a href="msa_phylo.html">Multiple Alignment</a>
+      <a href="gene_prediction.html">Gene Prediction</a>
+      <a href="protein_structure.html">Protein Structure</a>
+      <a href="ligand_screening.html">Ligand Screening</a>
+      <a href="ligand_docking.html">Molecular Docking</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">Experiment 4</p>
+        <h1>Multiple Sequence Alignment and Phylogenetic Analysis: CLUSTAL W / Phylogeny</h1>
+        <p class="lead">
+          To perform multiple sequence alignment and construct phylogenetic trees using CLUSTAL W.
+        </p>
+        <div class="hero__actions">
+          <a class="btn primary" href="#aim">View Aim &amp; Objectives</a>
+          <a class="btn ghost" href="#principle">Read Principle</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="aim" class="panel muted">
+      <div class="panel__header">
+        <h2>Aim & Objectives</h2>
+        <!-- <p>To perform multiple sequence alignment and construct phylogenetic trees using CLUSTAL W.</p> -->
+      </div>
+      <div class="grid two">
+        <div class="card soft">
+          <h3>Aim</h3>
+          <p>To perform multiple sequence alignment and construct phylogenetic trees using CLUSTAL W.</p>
+        </div>
+        <div class="card soft">
+          <h3>Objectives</h3>
+          <ul class="checklist">
+            <li>To align three or more sequence to find out structural and functional relationship between the sequences.</li>
+            <li>To study the nature of conserve domain information of query sequence with other homologous sequence in MSA profile.</li>
+            <li>To study phylogenetic relationship between organism.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="principle" class="panel">
+      <div class="panel__header">
+        <h2>Principle</h2>
+        <p>Multiple sequence alignment arranges three or more sequences to identify conserved residues across species. CLUSTAL W uses progressive alignment algorithms with scoring matrices. Phylogenetic analysis uses aligned sequences to infer evolutionary relationships based on genetic similarity and divergence.</p>
+      </div>
+    </section>
+
+    <section class="panel muted">
+      <div class="panel__header">
+        <h2>Output</h2>
+        <p>Result</p>
+      </div>
+      <div class="output-img two-images">
+        <img src="images/msa_phylo_1.jpg" alt="Multiple sequence alignment output 1">
+        <img src="images/msa_phylo_2.jpg" alt="Multiple sequence alignment output 2">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Multiple Sequence Alignment and Phylogenetic Analysis</p>
+    <p class="small">Student: Dipika Gupta | Content adapted from <a href="https://sites.google.com/kletech.ac.in/bioinformatics-lab/multiple-sequence-nucleic-acid-and-proteinalignment-and-phylogenetic-anal" target="_blank" style="color: rgba(233, 241, 255, 0.8);">KLE Bioinformatics Lab</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
